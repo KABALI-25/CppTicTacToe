@@ -170,21 +170,21 @@ void game_loop(){
 
 int main(){
 	
-	cout<<"\n\n\t\tHi there!!";
-	cout<<"\n\n\t\tDo you want to play tic tac\n\n\t\t1)Yes\n\n\t\t2)No"<<endl;
-	int number;
-	cin>>number;
-  while(number==1){
-  	game_loop();
-  	cout<<"Do you want to play again"<<endl;
-  	cout<<"\n\n\t\t1)Play again\n\n\t\t2)Quit"<<endl;
+cout<<"\n\n\t\tHi there!!";
+cout<<"\n\n\t\tDo you want to play tic tac\n\n\t\t1)Yes\n\n\t\t2)No"<<endl;
+int number;
+cin>>number;
+while(number==1){
+	game_loop();
+	cout<<"Do you want to play again"<<endl;
+	cout<<"\n\n\t\t1)Play again\n\n\t\t2)Quit"<<endl;
 	cin>>number;
 	while(number!=2 && number!=1){
 		cout<<"Enter number from the choices:"<<endl;
 		cout<<"\n\n\t\t1)Play again\n\n\t\t2)Quit"<<endl ;
 		cin>>number;
-	}
-  }
-  cout<<"Thank you !!";
+}
+}
+cout<<"Thank you !!";
 
 }
